@@ -36,12 +36,7 @@ app.listen(port, () => {
 });
 
 
- const activities = [
-            { name: '⚔️Hero Wars: Dominion Era⚔️', type: ActivityType.Playing },
-        ];
-
-     
-        const statuses = ['online', 'idle', 'dnd'];
+const statusMessages = ["🎮PLAYING ⚔️HERO WARS: DOMINION ERA⚔️"];
 
 
 let currentIndex = 0;
